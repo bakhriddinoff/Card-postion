@@ -4,3 +4,56 @@
     box-sizing: border-box;
 }
 
+main {
+    max-width: 1400px;
+    height: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 300px;
+}
+
+.img1 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.img2 {
+    position: absolute;
+    top: 150px;
+    left: 430px;
+}
+
+.img3 {
+    position: absolute;
+    top: 200px;
+    left: 460px;
+}
+
+.img4 {
+    position: absolute;
+    top: 250px;
+    left: 490px;
+}
+
+.img5 {
+    position: absolute;
+    top: 300px;
+    left: 520px;
+}
+
+.img6 {
+    position: absolute;
+    top: 350px;
+    left: 550px;
+}
+
+img:hover {
+    transform: translateY(-10px) scale(1.05);
+    z-index: 10;
+    transition: all 0.5s;
+}
